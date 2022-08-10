@@ -1,0 +1,233 @@
+:root{
+    --white: #dfddee;
+    --blackish: #18181a;
+    --darkgray: #d7d5e2;
+    --lighterWhite: #dfddee;
+}
+
+*{
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: 'Arial';
+    font-size: 16px;
+    background-color: var(--lighterWhite);
+}
+
+/* Top Styling */
+.top-wrapper{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.808);
+}
+.top-content{
+    background: var(--darkgray) url('../images/pexels-pixabay-martialarts-260447.jpg') fixed center;
+    filter: opacity(0.85);
+    height: 30em;
+    background-size: cover;
+
+    color: var(--white);    
+}
+header{
+
+    width: 100vw;
+    height: 100vh;
+}
+nav{
+  display: flex;
+  flex-direction: row;
+  justify-content:space-between;
+  /* font-size: 1.10em; */
+  padding: 1.5% 2%;
+    
+}
+.logo-one {
+    font-weight: bolder; 
+    font-size: 2em;
+    color: darkred;
+}
+.link > a{
+    font-weight: bolder;
+    color: darkred;
+ 
+  
+}
+.link > a:link {
+  color: var(--white);
+  text-decoration: none;
+}
+
+.link > a:visited{text-decoration: none;}
+
+.link > a:hover{
+    text-decoration: none;
+    color:var(--white);
+    font-weight: bold;
+}
+.link >  a:active{text-decoration: none;}
+
+.btn > button{
+    cursor: pointer;
+    font-size: 0.75em;
+    font-weight: bolder;
+    text-align: center;
+    text-decoration: none;
+    padding: 8px 10px;
+    color: var(--blackish);
+}
+
+.intro{
+    text-align: center;
+}
+.intro > h1{
+    letter-spacing: 2px;
+    font-size: 3.5em;
+    padding-top: 2%;
+    color: rgb(145, 137, 137);
+    text-shadow: 2px 3px var(--blackish), 
+    3px 4px var(--blackish),
+    4px 5px var(--blackish),
+    5px 6px var(--blackish),
+    6px 8px darkred;
+ 
+    
+}   
+.intro > p{
+    font-size: 1.45rem;
+    padding: 1% 15%;
+    color:  rgba(252, 248, 248, 0.925);
+    text-shadow: 1px 1px var(--blackish), 
+    2px 2px darkred,
+    3px 4px darkred;
+    line-height: 1.5;
+ 
+}
+.watch{
+    text-align: center;
+    padding: 5%;
+    font-size: 1.55em;
+    font-weight: bolder;
+    color:darkred;
+    text-shadow: 1px 2px var(--blackish),
+    2px 2px var(--blackish);
+  
+  
+}
+
+/* Mission Area Styling */
+
+.statement-area{
+   text-align: center;
+   padding: 4% 18%;
+   
+}
+.statement-area > h1{
+    font-size:2em;
+    font-weight: thin;
+}
+
+.statement-area > p{
+    font-size:1.10em;
+    font-weight: thin;
+    line-height: 1.7;
+    padding-bottom: 5%;
+}
+
+/* Visit Content */
+.visit-us-content{
+    background-color: #b8b6c4;
+    width: 100%;
+    height: 755px;
+    padding: 5%;
+}
+
+.visit-us-wrapper{
+    display: inline-flex;
+    text-align: center;
+    padding: 2% 5%;   
+    
+}
+
+.picture> h2{
+    font-size: 1.55em;
+    padding: 4%;
+   font-weight:500;
+   font-stretch:  ultra-condensed;
+}
+
+.picture > p{
+    line-height: 1.4;
+    padding-bottom: 10%;
+}
+
+.picture > button{
+    font-weight: bold;
+    color: var(--blackish);
+    padding: 3%;
+    background-color: #b8b6c400;
+    text-decoration: none;
+    text-align: center;
+    cursor: pointer;
+    padding: 18px 65px;
+    text-decoration: none;
+    border-radius: 8px;
+    border: 2px solid darkred;
+    
+}
+.picture > button a:link {
+    color: var(--white);
+    text-decoration: none;
+  }
+  
+  .picture > button a:visited{text-decoration: none;}
+  
+  .picture >button a:hover{
+      text-decoration: none;
+      color:var(--darkgray);
+      font-weight: bold;
+  }
+  .picture > button a:active{text-decoration: none;}
+
+.picture{
+    padding: 0% 3%;
+}
+.image  img{
+    width: 100%;
+    height: 250px;
+    object-fit:cover;
+    
+
+}
+
+/* Volunteer Styling */
+.volunteer-wrapper{
+    text-align: center;
+    padding: 4% 18%;
+    
+ }
+ .volunteer-wrapper > h1{
+     font-size:2em;
+     font-weight: thin;
+ }
+ 
+ .volunteer-wrapper > p{
+     font-size:1.10em;
+     font-weight: thin;
+     line-height: 1.7;
+     padding-bottom: 5%;
+ }
+
+ .volunteer-wrapper > button{
+    font-weight: bold;
+    padding: 3%;
+    background-color: #b8b6c400;
+    text-decoration: none;
+    text-align: center;
+    cursor: pointer;
+    padding: 18px 65px;
+    text-decoration: none;
+    border-radius: 8px;
+    border: 2px solid darkred;
+ }
