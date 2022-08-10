@@ -21,13 +21,14 @@ body{
     width: 100%;
     height: 100%;
     background-color: rgba(0, 0, 0, 0.808);
+  
 }
 .top-content{
     background: var(--darkgray) url('../images/pexels-pixabay-martialarts-260447.jpg') fixed center;
     filter: opacity(0.85);
     height: 30em;
     background-size: cover;
-
+    overflow: scroll;
     color: var(--white);    
 }
 header{
@@ -89,18 +90,19 @@ nav{
     text-shadow: 2px 3px var(--blackish), 
     3px 4px var(--blackish),
     4px 5px var(--blackish),
-    5px 6px var(--blackish),
+    5px 6px red,
     6px 8px darkred;
  
     
 }   
 .intro > p{
-    font-size: 1.45rem;
+    font-size: 1.55rem;
     padding: 1% 15%;
-    color:  rgba(252, 248, 248, 0.925);
-    text-shadow: 1px 1px var(--blackish), 
-    2px 2px darkred,
-    3px 4px darkred;
+    color: var(--white);
+    text-shadow: 1px 2px rgb(0, 0, 0), 
+    2px 3px red,
+    3px 5px darkred,
+    4px 5px red;
     line-height: 1.5;
  
 }
@@ -109,7 +111,7 @@ nav{
     padding: 5%;
     font-size: 1.55em;
     font-weight: bolder;
-    color:darkred;
+    color:;
     text-shadow: 1px 2px var(--blackish),
     2px 2px var(--blackish);
   
@@ -141,13 +143,14 @@ nav{
     width: 100%;
     height: 755px;
     padding: 5%;
+    overflow: scroll;
 }
 
 .visit-us-wrapper{
     display: inline-flex;
     text-align: center;
     padding: 2% 5%;   
-    
+    overflow: scroll;
 }
 
 .picture> h2{
@@ -230,3 +233,60 @@ nav{
     border-radius: 8px;
     border: 2px solid darkred;
  }
+
+ /* Footer Stylin*/
+ .bottom-wrapper{
+    background-color: var(--blackish);
+    width: 100vw;
+    height: auto;
+    padding: 3%;
+ }
+
+ .icons span a{
+    color: var(--lighterWhite);
+    font-size:2em;
+ }
+ .box h3 {
+    color: darkred;
+    font-weight: bold;
+    padding: 1px 5px ;
+    margin: 1px;
+ }
+ 
+ .box span{
+    color: var(--darkgray);
+ }
+
+ .box address{
+    color: darkred;
+ }
+ .physical-address{
+    padding: 13px 1px;
+    line-height: 1.2;
+ }
+ .box a{
+    text-decoration: none;
+    padding: 5px 2px;
+    margin: 6px;
+ }
+
+ .site-map,
+ .contribute-area,
+ .address-area{
+    padding: 11px 3px;
+ }
+
+ .box {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+ }
+ 
+ .tax-area{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: var(--white);
+    padding: 8px 3px;
+ }
+
