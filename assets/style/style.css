@@ -42,7 +42,14 @@ nav{
   justify-content:space-between;
   /* font-size: 1.10em; */
   padding: 1.5% 2%;
+  
     
+}
+
+nav a {
+    margin: 1px 8px;
+    text-shadow: 1px 2px black,
+    1px 3px black;
 }
 .logo-one {
     font-weight: bolder; 
